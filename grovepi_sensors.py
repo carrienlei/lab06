@@ -5,8 +5,8 @@ from grove_rgb_lcd import *
 
 
 rotaryPort = 0 #Grovepi potentiometer connected to analog port A0
-ultrasonicPort = 4 #Grovepi ultrasonic ranger connected to port 4.
-LCDPort = 3 #Grovepi LCD panel connected to port 5.
+ultrasonicPort = 4 #Grovepi ultrasonic ranger connected to port D4.
+LCDPort = 3 #Grovepi LCD panel connected to i2c port 3.
 
 grovepi.pinMode(rotaryPort, "INPUT")
 grovepi.pinMode(LCDPort, "OUTPUT")
